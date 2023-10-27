@@ -16,7 +16,7 @@ body{
         font-weight: bold;	
         font-family: Arial, Helvetica, 								sans-serif;
         color: #fff;
-        font-size: 20px;
+        font-size: 50px;
         }
        h2{
         text-decoration: none;
@@ -86,7 +86,7 @@ body{
 
         .coloredheader{
         background-color: #232c36;
-        height: 10%;
+        height: 8%;
         width : 100%;
         
         position:fixed;
@@ -135,8 +135,8 @@ body{
         .logo{
             display: flex;
             align-items: flex-start;
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             cursor: pointer;
             
 
@@ -154,7 +154,7 @@ body{
 				bottom: 0px;
 				left:0px;
 				background-color: #232c36;
-        height: 12%;
+        height: 5%;
         width : 100%;
         margin-top:1000px;
     
