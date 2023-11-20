@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Camasis Reviews</title>
+        <link rel = "stylesheet" href="CamasisReviews.css">
+    </head>
+
+    <body>
+      
+        <div class="intro">
+            <h1 class="logo-header">
+                <span class="logo">CAMASIS</span>
+                <span class="logo">REVIEWS</span>
+            </h1>
+        </div>
+
+        <div class="header">
+            <img id= "logoko"src="logo5.png">
+            <h1 id = "titletext" data-text="CAMASIS REVIEWS">CAMASIS REVIEWS</h1>
+                    
+                        <div class = "aboutbar">
+                    <ul>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown"><a href="">Contacts</a>
+                        <div class="dropdowncontent">
+                            <a href="">09988830091</a>
+                            <a href="">09686662870</a>
+                            <a href="">09563469014</a>
+                        </div>
+                        
+                    </li>
+                    <li class="emaillist"><a href="">Email</a>
+                        <div class="emailcontent">
+                            <a href="">sonic92yeylol@gmail.com</a>
+                            <a href="">2022105243@gmail.com</a>
+                            <a href="">silver91yeylol@gmail.com</a>
+                        </div>
+                    
+                    
+                    </li>
+                    </ul>
+                        </div>
+                        
+                    
+        </div>
+
+        <div class = "video">
+            <a href = "https://youtu.be/4_PBPtEUvuc"><img id="thumbnail" src = "thumbnail.jpg" class = "logoko"></a>
+            <h1 id="bodytexttitle">Welcome to Camasis Reviews!</h1> 
+            <h2 id="bodytext">In here, I review requested reviews like games, gadgets, system units and more! Above is my reviews with Argie Gonzales regarding the motherboard</h2>
+            
+        </div>
+
+        <div class = "slidesection">
+            <h1 id = "slidetitle">My Reviewed Motherboard</h1>
+            <section id = "slider">
+                <input type="radio" name="slider" id="s1" checked>
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4">
+                <input type="radio" name="slider" id="s5">
+    
+                <label for="s1" id="slide1">
+                    <img id= "m1"src="m1.png">
+                    <h1 class="titleslide">ROG MAXIMUS
+                        <a class= "sliderbutton"   href="https://rog.asus.com/ph/motherboards/rog-maximus/rog-maximus-z790-extreme-model/">Learn More</a>
+                    </h1>
+                </label>
+                <label for="s2" id="slide2">
+                    <img id="m2" src="m2.png">
+                    <h1 class="titleslide">7390 AORUS
+                        <a class= "sliderbutton"   href="https://www.gigabyte.com/Motherboard/Z390-AORUS-PRO-WIFI-rev-10">Learn More</a>
+                    </h1>
+                </label>
+                <label for="s3" id="slide3">
+                    <img id="m3" src="m3.png">
+                    <h1 class="titleslide">B550 STEELLEGEND
+                        <a class= "sliderbutton"   href="https://www.asrock.com/mb/AMD/B550%20Steel%20Legend/index.asp  ">Learn More</a>
+                    </h1>
+                </label>
+                <label for="s4" id="slide4">
+                    <img id="m2" src="m4.png">
+                    <h1 class="titleslide">X570 PRO4
+                        <a class= "sliderbutton"   href="https://www.asrock.com/mb/AMD/X570%20Pro4/index.asp">Learn More</a>
+                    </h1>
+                </label>
+
+                <label for="s5" id="slide5">
+                    <img id="m2" src="m5.png">
+                    <h1  class="titleslide">PHANTOM GAMING
+                        <a class= "sliderbutton"   href="https://pg.asrock.com/mb/AMD/B550%20Phantom%20Gaming%204/index.asp">Learn More</a>
+                    </h1>
+                </label>
+            </section>
+    
+        </div>
+        
+        <div class="aboutcontainer">
+            <div class="abouttext">
+                <h1 class = "aboutheader" id="about"></h1>
+
+                <button style="--color: rgb(75, 185, 248);" class="button" onclick="openLink(this)" value="https://github.com/SeigiMondragon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    FACEBOOK
+                </button>
+
+                <button style="--color:aquamarine;" class="button" onclick="openLink(this)" value="https://drive.google.com/file/d/1Drp2MOtgrEqC5qDlcTi_91GFEncUkXqU/view?usp=sharing">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    My CV!
+                </button>
+                <button style="--color: #6b4bf8;" class="button" onclick="openLink(this)" value="https://github.com/SeigiMondragon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    GITHUB
+                </button>
+
+
+                <br />
+                
+            </div>
+        </div>
+
+
+        
+
+
+
+        <script src = "CamasisReviews.js"></script>
+
+        <script>
+             function openLink(link){
+                console.log(link.value);
+                //location.href = link.value;
+                window.open(link.value)
+            };
+        </script>
+    </body>
+
+
+</html>
